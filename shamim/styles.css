@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.container {
+    background-color: whitesmoke;
+    padding: 50px 200px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+.banner-img{
+    width: 100%;
+    margin-top: 30px;
+}
+nav ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 50px;
+}
+
+.banner {
+    text-align: center;
+    padding: 50px;
+}
+
+.banner-description {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.primary-btn {
+    background-color: red;
+    color: whitesmoke;
+    width: 200px;
+    height: 64px;
+    border: 0;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 20px;
+}
+.section-title{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+main{
+    width: 800px;
+    display: flex;
+    justify-content: center;
+}
+.section-love{
+    
+}
+.love-content{
+    display: flex;
+    width: 100%;
+    justify-items: center;
+    justify-content: center;
+
+}
+.love-img{
+    width: 600px;
+}
+.i-do{
+    margin: 50px;
+
+}
+.skill-container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.home-container{
+    text-align: center;
+}
+.boss{
+    text-align: center;
+   margin-bottom: 50px;
+   padding-top: 50px;
+}
+.footer{
+    text-align: center;
+    background-color: rgb(228, 176, 176);
+}
